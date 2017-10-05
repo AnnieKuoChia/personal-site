@@ -1,0 +1,187 @@
+*{
+  box-sizing: border-box;
+}
+
+#nav {
+  background-color: #40E0D0;
+  width: 100%;
+  border :1px solid #40E0D0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+#content {
+  position: relative;
+  top: 78px;
+  padding: 15px;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+#content > .container > div {
+  padding: 78px 0;
+}
+
+.menu li {
+  width: 150px;
+  padding: 10px 0px;
+
+  border: 1px solid #fff;
+  border-radius: 8px; /*使border出現圓角*/
+
+  list-style-type: none; /*把選單符號去掉*/
+  text-align: center; /*讓文字在按鈕正中間*/
+  background-color: #40E0D0; /*設定按鈕顏色*/
+  color: #fff; /*設定文字顏色*/
+  display: inline-block; /*讓按鈕排列方向改為水平*/
+}
+
+a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+}
+
+li:hover { /*游標移過時才觸發所定義的樣式*/
+  border: 1px solid #40E0D0;
+  background-color: #fff;
+}
+
+.menu {
+  float: right;
+  float: right;
+}
+
+li:hover a {
+  color: #40E0D0;
+  font-weight: 800;
+}
+
+h1 {
+  margin-bottom: 0;
+  text-align: center;
+}
+
+#about h1 {
+  margin-bottom: 0;
+  text-align: left;
+}
+
+h3 {
+  margin: 0;
+}
+
+table {
+  font-size: 14px;
+  text-align: left
+}
+
+th, td {
+  vertical-align: top;
+}
+
+td {
+  color: #666;
+  padding-left: 10px;
+}
+
+hr {
+  border: 0.5px solid #eee;
+}
+
+#my-avatar {
+  border: 1px solid #40E0D0;
+  float: left;
+  margin-right: 20px;
+}
+
+#my-avatar img {
+  width: 300px;
+}
+
+.item {
+  position: relative;
+  max-width: 30%;
+  display: inline-block;
+  margin-bottom: 10px;
+
+}
+
+.item-info {
+  border: 1px solid #40E0D0;
+  background-color: rgba(255,255,255,.8); 
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  text-align: center;
+  padding: 25px 10px;
+  opacity: 0;
+
+}
+
+.item-info:hover {
+  opacity: 1;
+}
+.item img {
+  width: 100%;
+}
+
+.contact-form {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.form-row {
+  margin-bottom: 15px;
+}
+
+.form-row input, .form-row textarea {
+  border-radius: 3px;
+  width: 100%;
+  border: 1px solid #D6D9DC;
+  padding: 7px;
+}
+
+.form-row textarea {
+  resize: none;
+  height: 4em;
+}
+
+.form-row button {
+  border: none;
+  border-radius: 3px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.form-row button[type="sumbit"] {
+  background-color: #5995DA;
+  color: #FFFFFF;
+}
+
+.form-row button:hover {
+  background-color: #40E0D0
+}
+
+.form-row button:active {
+  background-color: #407FC7;
+}
+
+hr.bar {
+  border: 2px solid #40E0D0;
+  width: 80px;
+}
+
+#my-work-gallery {
+  text-align: center;
+}
